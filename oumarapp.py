@@ -40,10 +40,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello Everyone ,  This is my Web API for credit scoring "
-
-
-
+    return "Bienvenue, L'API est opérationnelle..."
 
 
 @app.route('/prediction_credit/<id_client>', methods=['GET'])

@@ -1,0 +1,12 @@
+# Sauvegarde des lignes de commandes utiles Git/Github pour le déploiement de ce projet
+
+git --version
+rm -rf .git
+git init
+git add .
+git status
+git commit -m "first commit"
+git log
+git branch -M main
+git remote add origin git@github.com:oumargueye89/api.git
+git push -u origin main
